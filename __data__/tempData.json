@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "dataType": "javascript",
+      "bodyData": {
+        "document": {
+          "savedAt": "10/21/2025, 11:20:19 AM",
+          "sources": [
+            {
+              "fileExtension": "js",
+              "filename": "sketch.js",
+              "content": "// 神戸市のマーク\r\nfunction setup(){\r\n  createCanvas(200, 200);\r\n  background(255);\r\n\r\n  noFill();\r\n  strokeWeight(25);\r\n  strokeCap(SQUARE);\r\n  arc(100 + 25, 100, 100, 100, QUARTER_PI * 3, QUARTER_PI * 3 + PI);\r\n  // BLANK[1] 空欄を埋めて神戸市のロゴマークを完成させろ\r\n}\r\n"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
